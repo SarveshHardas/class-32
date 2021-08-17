@@ -58,7 +58,7 @@ function setup()
   sadAni.frameDelay = 20;
   eatAni.frameDelay = 20;
 
-  bunny = createSprite(250,550,100,100)
+  bunny = createSprite(420,620,100,100)
   bunny.addAnimation("blinking",blinkAni);
   bunny.addAnimation("eating",eatAni);
   bunny.addAnimation("crying",sadAni);
